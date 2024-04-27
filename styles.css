@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5; /* Baby pink background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4; /* Hot pink text color */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #ff69b4; /* Hot pink button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6548c; /* Lighter pink on hover */
+}
+
+#prediction {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffe4e1; /* Light pink prediction background */
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
